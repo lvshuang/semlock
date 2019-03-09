@@ -1,0 +1,21 @@
+{
+    "name": "lvshuang/semlock",
+    "description": "A php standalone lock lib implement with semaphore",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike",
+            "email": "mike@kucoin.net"
+        }
+    ],
+    "require": {
+        "php": ">= 7.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SemLock\\": "./"
+        }
+    }
+}
